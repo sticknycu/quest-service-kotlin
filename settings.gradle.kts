@@ -1,1 +1,1 @@
-rootProject.name = "quest"
+rootProject.name = "quest-service"
