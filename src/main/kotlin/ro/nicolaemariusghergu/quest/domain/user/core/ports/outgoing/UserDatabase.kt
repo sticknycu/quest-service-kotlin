@@ -6,4 +6,6 @@ import java.util.*
 interface UserDatabase {
 
     fun save(user: User): UUID
+
+    fun edit(id: String, user: User) : User
 }

@@ -5,3 +5,9 @@ data class AddUserCommand(
     var lastName: String,
     var email: String
 )
+
+data class EditUserCommand(
+    var firstName: String,
+    var lastName: String,
+    var email: String
+)
